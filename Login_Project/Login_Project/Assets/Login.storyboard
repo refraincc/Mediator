@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="H5Z-b2-r0b">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="d13-Sn-yLu" customClass="LoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jne-qT-mKX"/>
+                        <viewControllerLayoutGuide type="bottom" id="aCZ-C4-AHX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jDO-NW-aaf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xY-Gx-i0T">
+                                <rect key="frame" x="157" y="244" width="100" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="oX7-sY-Ty2"/>
+                                    <constraint firstAttribute="width" constant="100" id="rlA-jy-9Zt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="login:" destination="d13-Sn-yLu" eventType="touchUpInside" id="z0B-n8-EeE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUv-2f-jCG">
+                                <rect key="frame" x="157" y="602" width="100" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Ljz-fn-y2j"/>
+                                    <constraint firstAttribute="height" constant="60" id="mjq-TW-w07"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Login Out">
+                                    <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginOut:" destination="d13-Sn-yLu" eventType="touchUpInside" id="Mh9-ty-X4n"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="where" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cgy-wX-fGz">
+                                <rect key="frame" x="183.5" y="437.5" width="47" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Cgy-wX-fGz" firstAttribute="centerX" secondItem="jDO-NW-aaf" secondAttribute="centerX" id="8YF-Ge-t3r"/>
+                            <constraint firstItem="Cgy-wX-fGz" firstAttribute="centerY" secondItem="jDO-NW-aaf" secondAttribute="centerY" id="9sr-it-baf"/>
+                            <constraint firstItem="7xY-Gx-i0T" firstAttribute="centerX" secondItem="jDO-NW-aaf" secondAttribute="centerX" id="DYD-Cc-APL"/>
+                            <constraint firstItem="aCZ-C4-AHX" firstAttribute="top" secondItem="LUv-2f-jCG" secondAttribute="bottom" constant="200" id="QFg-4m-aOq"/>
+                            <constraint firstItem="7xY-Gx-i0T" firstAttribute="top" secondItem="Jne-qT-mKX" secondAttribute="bottom" constant="200" id="Tuf-IT-jdZ"/>
+                            <constraint firstItem="LUv-2f-jCG" firstAttribute="centerX" secondItem="jDO-NW-aaf" secondAttribute="centerX" id="oW0-2u-6D7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fromLabel" destination="Cgy-wX-fGz" id="eMy-qb-8Gy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jbh-Vj-Xfp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-196" y="-140"/>
+        </scene>
+    </scenes>
+</document>

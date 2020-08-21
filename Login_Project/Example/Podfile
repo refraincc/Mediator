@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'Login_Project_Example' do
+  pod 'Login_Project', :path => '../'
+  
+  pod 'CTMediator', :path => '../../CTMediator'
+
+  target 'Login_Project_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

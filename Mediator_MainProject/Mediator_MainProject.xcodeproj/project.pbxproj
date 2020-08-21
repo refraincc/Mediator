@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4288F06324EE66AF0013F77C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4288F06224EE66AF0013F77C /* AppDelegate.m */; };
+		4288F06924EE66AF0013F77C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4288F06824EE66AF0013F77C /* ViewController.m */; };
+		4288F06C24EE66AF0013F77C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4288F06A24EE66AF0013F77C /* Main.storyboard */; };
+		4288F06E24EE66B10013F77C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4288F06D24EE66B10013F77C /* Assets.xcassets */; };
+		4288F07124EE66B10013F77C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4288F06F24EE66B10013F77C /* LaunchScreen.storyboard */; };
+		4288F07424EE66B10013F77C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4288F07324EE66B10013F77C /* main.m */; };
+		4288F09924EF76060013F77C /* MediatorMainAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4288F09824EF76060013F77C /* MediatorMainAction.m */; };
+		D7F3861CF6C85621038ADACF /* libPods-Mediator_MainProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C364726E051AE34C3F516C /* libPods-Mediator_MainProject.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4288F05E24EE66AF0013F77C /* Mediator_MainProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mediator_MainProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4288F06124EE66AF0013F77C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4288F06224EE66AF0013F77C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4288F06724EE66AF0013F77C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4288F06824EE66AF0013F77C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4288F06B24EE66AF0013F77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4288F06D24EE66B10013F77C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4288F07024EE66B10013F77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4288F07224EE66B10013F77C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4288F07324EE66B10013F77C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4288F09724EF76060013F77C /* MediatorMainAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediatorMainAction.h; sourceTree = "<group>"; };
+		4288F09824EF76060013F77C /* MediatorMainAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediatorMainAction.m; sourceTree = "<group>"; };
+		C682012A2F2FBECA03B34564 /* Pods-Mediator_MainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediator_MainProject.release.xcconfig"; path = "Target Support Files/Pods-Mediator_MainProject/Pods-Mediator_MainProject.release.xcconfig"; sourceTree = "<group>"; };
+		F4C364726E051AE34C3F516C /* libPods-Mediator_MainProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mediator_MainProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8362D5BC809A492D417775C /* Pods-Mediator_MainProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediator_MainProject.debug.xcconfig"; path = "Target Support Files/Pods-Mediator_MainProject/Pods-Mediator_MainProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4288F05B24EE66AF0013F77C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F3861CF6C85621038ADACF /* libPods-Mediator_MainProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4288F05524EE66AF0013F77C = {
+			isa = PBXGroup;
+			children = (
+				4288F06024EE66AF0013F77C /* Mediator_MainProject */,
+				4288F05F24EE66AF0013F77C /* Products */,
+				D3C8700F2455725779BF133B /* Pods */,
+				649EFF611C995CBC6D7123C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4288F05F24EE66AF0013F77C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4288F05E24EE66AF0013F77C /* Mediator_MainProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4288F06024EE66AF0013F77C /* Mediator_MainProject */ = {
+			isa = PBXGroup;
+			children = (
+				4288F09624EF75E60013F77C /* Mediator */,
+				4288F06124EE66AF0013F77C /* AppDelegate.h */,
+				4288F06224EE66AF0013F77C /* AppDelegate.m */,
+				4288F06724EE66AF0013F77C /* ViewController.h */,
+				4288F06824EE66AF0013F77C /* ViewController.m */,
+				4288F06A24EE66AF0013F77C /* Main.storyboard */,
+				4288F06D24EE66B10013F77C /* Assets.xcassets */,
+				4288F06F24EE66B10013F77C /* LaunchScreen.storyboard */,
+				4288F07224EE66B10013F77C /* Info.plist */,
+				4288F07324EE66B10013F77C /* main.m */,
+			);
+			path = Mediator_MainProject;
+			sourceTree = "<group>";
+		};
+		4288F09624EF75E60013F77C /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				4288F09724EF76060013F77C /* MediatorMainAction.h */,
+				4288F09824EF76060013F77C /* MediatorMainAction.m */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		649EFF611C995CBC6D7123C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4C364726E051AE34C3F516C /* libPods-Mediator_MainProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3C8700F2455725779BF133B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8362D5BC809A492D417775C /* Pods-Mediator_MainProject.debug.xcconfig */,
+				C682012A2F2FBECA03B34564 /* Pods-Mediator_MainProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4288F05D24EE66AF0013F77C /* Mediator_MainProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4288F07724EE66B10013F77C /* Build configuration list for PBXNativeTarget "Mediator_MainProject" */;
+			buildPhases = (
+				007432044A3A5AEAA559D010 /* [CP] Check Pods Manifest.lock */,
+				4288F05A24EE66AF0013F77C /* Sources */,
+				4288F05B24EE66AF0013F77C /* Frameworks */,
+				4288F05C24EE66AF0013F77C /* Resources */,
+				895CB323987ED8105E596BCF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mediator_MainProject;
+			productName = Mediator_MainProject;
+			productReference = 4288F05E24EE66AF0013F77C /* Mediator_MainProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4288F05624EE66AF0013F77C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = refraincc;
+				TargetAttributes = {
+					4288F05D24EE66AF0013F77C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4288F05924EE66AF0013F77C /* Build configuration list for PBXProject "Mediator_MainProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4288F05524EE66AF0013F77C;
+			productRefGroup = 4288F05F24EE66AF0013F77C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4288F05D24EE66AF0013F77C /* Mediator_MainProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4288F05C24EE66AF0013F77C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4288F07124EE66B10013F77C /* LaunchScreen.storyboard in Resources */,
+				4288F06E24EE66B10013F77C /* Assets.xcassets in Resources */,
+				4288F06C24EE66AF0013F77C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		007432044A3A5AEAA559D010 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mediator_MainProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		895CB323987ED8105E596BCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mediator_MainProject/Pods-Mediator_MainProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mediator_MainProject/Pods-Mediator_MainProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mediator_MainProject/Pods-Mediator_MainProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4288F05A24EE66AF0013F77C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4288F06924EE66AF0013F77C /* ViewController.m in Sources */,
+				4288F06324EE66AF0013F77C /* AppDelegate.m in Sources */,
+				4288F07424EE66B10013F77C /* main.m in Sources */,
+				4288F09924EF76060013F77C /* MediatorMainAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4288F06A24EE66AF0013F77C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4288F06B24EE66AF0013F77C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4288F06F24EE66B10013F77C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4288F07024EE66B10013F77C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4288F07524EE66B10013F77C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4288F07624EE66B10013F77C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4288F07824EE66B10013F77C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8362D5BC809A492D417775C /* Pods-Mediator_MainProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2983JX9A3K;
+				INFOPLIST_FILE = Mediator_MainProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "refraincc.com.Mediator-MainProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4288F07924EE66B10013F77C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C682012A2F2FBECA03B34564 /* Pods-Mediator_MainProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2983JX9A3K;
+				INFOPLIST_FILE = Mediator_MainProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "refraincc.com.Mediator-MainProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4288F05924EE66AF0013F77C /* Build configuration list for PBXProject "Mediator_MainProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4288F07524EE66B10013F77C /* Debug */,
+				4288F07624EE66B10013F77C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4288F07724EE66B10013F77C /* Build configuration list for PBXNativeTarget "Mediator_MainProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4288F07824EE66B10013F77C /* Debug */,
+				4288F07924EE66B10013F77C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4288F05624EE66AF0013F77C /* Project object */;
+}

@@ -1,0 +1,11 @@
+#use_frameworks!
+
+platform :ios, '8.0'
+
+target 'Mediator_MainProject' do
+  pod 'CTMediator', :path => '../CTMediator'
+  pod 'Login_Project', :path => '../Login_Project'
+  pod 'Mediator_Login', :path => '../Mediator_Login'
+  pod 'Mediator_Main', :path => '../Mediator_Main'
+end
+
